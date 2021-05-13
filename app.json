@@ -111,11 +111,6 @@
        "description": "for login private messages create a private channel and do .get_id and add that id", 
        "value": ""
     },
-    "PLUGIN_CHANNEL": {
-    "description": "Channel Where You Save Your Plugins",
-    "value": "",
-    "required": true 
-    },
     "SUDO_USERS": {
     "description": "Users you want to give access to your bot. (Don't allow unknown people)",
     "value": "",
