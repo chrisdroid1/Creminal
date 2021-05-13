@@ -7,12 +7,12 @@ _get_ziplink () {
     then
         echo "aHR0cHM6Ly9naXRodWIuY29tL1lvdW5nY2hyaXMxNTAvQ3JlbWluYWwyL2FyY2hpdmUvbWFzdGVy
 LnppcA==" | base64 -d
-    elif [[ $UPSTREAM_REPO == "badjdjdjcat" ]]
+    elif [[ $UPSTREAM_REPO == "" ]]
     then
-        echo "aHR0cHM6Ly9naXRodWIuY29tL2ppc2FuMDkvY2F0dXNlcmdhdjdjjJvdC9hcmNoaXZlL21hc3Rlci56aXA=" | base64 -d
-    elif [[ $UPSTREAM_REPO == "arabjsjdjiccat" ]]
+        echo "" | base64 -d
+    elif [[ $UPSTREAM_REPO == "" ]]
     then
-        echo "aHR0cHM6Ly9naXRodWIuY29tL0FOTDBLRS9jYXR1c2VyYm90L2ndndnFyY2hpdmUvbWFzdGVyLnppcA==" | base64 -d
+        echo "" | base64 -d
     elif [[ $UPSTREAM_REPO =~ $regex ]]
     then
         if [[ $UPSTREAM_REPO_BRANCH ]]
@@ -34,12 +34,12 @@ _get_repolink () {
     if [[ $UPSTREAM_REPO == "Creminal" ]]
     then
         rlink=`echo "aHR0cHM6Ly9naXRodWIuY29tL1lvdW5nY2hyaXMxNTAvQ3JlbWluYWwy" | base64 -d`
-    elif [[ $UPSTREAM_REPO == "badjdjdjcat" ]]
+    elif [[ $UPSTREAM_REPO == "" ]]
     then
-        rlink=`echo "aHR0cHM6Ly9naXRodWIuY29tL0ppc2FundndndMDkvY2F0dXNlcmJvdA==" | base64 -d`
-    elif [[ $UPSTREAM_REPO == "arncmdmabiccat" ]]
+        rlink=`echo "" | base64 -d`
+    elif [[ $UPSTREAM_REPO == "" ]]
     then
-        rlink=`echo "aHR0cHM6Ly9naXRodWIuY29tL0FOTDBLndndnRS9jYXR1c2VyYm90" | base64 -d`
+        rlink=`echo "" | base64 -d`
     elif [[ $UPSTREAM_REPO =~ $regex ]]
     then
         rlink=`echo "${UPSTREAM_REPO}"`
