@@ -69,6 +69,44 @@
       "value": "",
       "required": true
     },
+    "SUDO_USERS": {
+     "description": "Allow others to use your bot",
+     ",value": "",
+     "required": false
+    },
+    "PM_LOGGER_GROUP_ID": {
+    "description": "for logging PM",
+    "value": ""
+    },
+    "PRIVATE_CHANNEL_BOT_API_ID": {
+    "description": "for frwd",
+    "value": ""
+    },
+    "NO_OF_BUTTONS_DISPLAYED_IN_H_ME_CMD": {
+    "description": "you should know lol",
+    "value": "8",
+    "required": false
+    },
+    "CUSTOM_PMPERMIT_TEXT": {
+    "description": "message for PMPermit",
+    "value": "",
+    "required": false
+    },
+    "CUSTOM_ALIVE_TEXT": {
+    "description": "change custom alive text",
+    "value": "",
+    "required": false
+    },
+    "CUSTOM_ALIVE_EMOJI": {
+    "description": "emoji to show during the alive command",
+    "value": "",
+    "required": false
+    },
+    "NO_OF_COLOUMS_DISPLAYED_IN_H_ME_CMD": {
+    "description": "you should know lol",
+    "value": "2",
+    "required": false
+    },
     "PM_LOGGR_BOT_API_ID": {
        "description": "for login private messages create a private channel and do .get_id and add that id", 
        "value": ""
@@ -93,7 +131,7 @@
       "value": "",
       "required": false
     }, 
-    "SPAM": {
+    "MAX_FLOOD_IN_PMS": {
     "description": "Number of messages one can send in your PM before being approved. By default, it is 5.",
     "value": "5",
     "required": false
