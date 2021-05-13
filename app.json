@@ -107,10 +107,6 @@
     "value": "2",
     "required": false
     },
-    "PM_LOGGR_BOT_API_ID": {
-       "description": "for login private messages create a private channel and do .get_id and add that id", 
-       "value": ""
-    },
     "SUDO_USERS": {
     "description": "Users you want to give access to your bot. (Don't allow unknown people)",
     "value": "",
