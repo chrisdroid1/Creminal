@@ -57,7 +57,7 @@
     },  
     "ALIVE_MSG": {
       "description": "Set Custom awake Message When entering .awake command.",
-      "value": "Heyy There `Lightning Master` Am Alive till you turn me off manually or my Dynos get over. ",
+      "value": "Heyy There `Creminal Master` Am Alive till you turn me off manually or my Dynos get over. ",
       "required": false 
     },
     "PRIVATE_GROUP_BOT_API_ID": {
