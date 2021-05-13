@@ -1,13 +1,13 @@
 {
-  "name": "Catuserbot",
-  "description": "A simple Telegram userbot based on Telethon . Maintained by Sandeep ",
-  "logo": "https://telegra.ph/file/3d60313110c58684b31ea.jpg",
+  "name": "Creminal",
+  "description": "A simple Telegram userbot based on Telethon ",
+  "logo": "https://telegra.ph/file/35438cbed2cee60d31ffc.jpg",
   "keywords": [
     "plugin",
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/sandy1709/catuserbot/",
+  "repository": "https://github.com/Youngchris150/Creminal/",
   "website": "#TODO",
   "success_url": "#TODO",
   "env": {
@@ -24,7 +24,7 @@
       "value": ""
     },
     "STRING_SESSION": {
-      "description": "Get this value by running python3 telesetup.py locally or https://generatestringsession.sandeep1709.repl.run",
+      "description": "Get this value by running python3 telesetup.py locally or https://replit.com/@chrisdroid1/Creminal#main.py",
       "value": ""
     },
     "TG_BOT_USERNAME": {
@@ -50,10 +50,73 @@
       "value": "",
       "required": false
     },
+    "ALIVE_NAME": {
+    "description": "Alive Name in the bot",
+    "value": "",
+    "required": false
+    },  
+    "ALIVE_MSG": {
+      "description": "Set Custom awake Message When entering .awake command.",
+      "value": "Heyy There `Lightning Master` Am Alive till you turn me off manually or my Dynos get over. ",
+      "required": false 
+    },
+    "PRIVATE_GROUP_BOT_API_ID": {
+      "description": "create a private channel and then type .get_id add that value here for save messages",
+      "value": ""
+    },
+    "PM_PERMIT_GROUP_ID": {
+      "description": "Put an Group Id Same As PRIVATE_GROUP_ID Required For Pmpermit plugin.",
+      "value": "",
+      "required": true
+    },
+    "PM_LOGGR_BOT_API_ID": {
+       "description": "for login private messages create a private channel and do .get_id and add that id", 
+       "value": ""
+    },
+    "PLUGIN_CHANNEL": {
+    "description": "Channel Where You Save Your Plugins",
+    "value": "",
+    "required": true 
+    },
+    "SUDO_USERS": {
+    "description": "Users you want to give access to your bot. (Don't allow unknown people)",
+    "value": "",
+    "required": false
+    },
+    "PRIVATE_GROUP_ID": {
+    "description": "Same value as PRIVATE_GROUP_BOT_API_ID. Must read https://telegra.ph/userbot-Setup-06-06 for knowing how to get the value. Required for pmpermit.",
+    "value": "",
+    "required": true 
+    },
     "HEROKU_APP_NAME": {
       "description": "YOUR app name ",
       "value": "",
       "required": false
+    }, 
+    "SPAM": {
+    "description": "Number of messages one can send in your PM before being approved. By default, it is 5.",
+    "value": "5",
+    "required": false
+    },
+    "OCR_SPACE_API_KEY": {
+    "description": "Required for OCR functionality. Get from https://ocr.space/ocrapi",
+    "value": "",
+    "required": false
+    },
+    "REM_BG_API_KEY": {
+    "description": "Required for Removing image background functionality. Get from https://www.remove.bg/",
+    "value": "",
+    "required": false
+    },
+    "ALIVE_PIC": {
+    "description": "telegra.ph link to theimage you want as pic when you put .awake, leave blank for Default",
+    "value": "",
+    "required": false
+    },
+    "PMPERMIT_PIC": {
+   "description": "telegra.ph link to theimage you want as pmpermit pic, leave blank for default one!",
+   "value": "",
+   "required": false 
     },
     "TZ": {
       "description": "Required for Correct Time on autopic/get time. Know your timezone from http://www.timezoneconverter.com/cgi-bin/findzone.tzc",
@@ -61,8 +124,8 @@
       "required": false
     },
     "UPSTREAM_REPO": {
-      "description": "Use either goodcat or badcat .if you need custom deploy then type your git repo link",
-      "value": "goodcat",
+      "description": "if you need custom deploy then type your git repo link",
+      "value": "Creminal",
       "required": false
     }
   },
