@@ -87,10 +87,9 @@
     "value": "",
     "required": false
     },
-    "CUSTOM_ALIVE_EMOJI": {
-    "description": "emoji to show during the alive command",
+    "PLUGIN_CHANNEL": {
+    "description": "for external plugins",
     "value": "",
-    "required": false
     },
     "NO_OF_COLOUMS_DISPLAYED_IN_H_ME_CMD": {
     "description": "you should know lol",
