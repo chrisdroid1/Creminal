@@ -1,5 +1,6 @@
-Kindly fork repo
+CREMINAL USERBOT PLEASE FORK
 
+[![HitCount](http://hits.dwyl.com/chrisdroid1/Creminal.svg)](http://hits.dwyl.com/chrisdroid1/Creminal)
 
 
 ## Deploy
